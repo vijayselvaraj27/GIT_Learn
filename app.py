@@ -6,7 +6,7 @@ def get_product():
     return {
         "id": 1,
         "name": "Laptop",
-        "price": 50000
+        "price": 55000
     }
 
 def login(username, password):
