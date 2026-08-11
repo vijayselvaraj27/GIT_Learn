@@ -9,6 +9,11 @@ def get_product():
         "price": 50000
     }
 
+def login(username, password):
+    if username == "admin" and password == "1234":
+        return "Login successful"
+
+    return "Invalid username or password"
 
 if __name__ == "__main__":
     print(hello())
