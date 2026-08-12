@@ -16,6 +16,7 @@ def login(username, password):
     return "Invalid username or password"
 
 def search_product(name):
+      # Search product by name
     return f"Searching for {name}"
 
 if __name__ == "__main__":
