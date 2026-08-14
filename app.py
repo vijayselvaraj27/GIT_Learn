@@ -19,6 +19,12 @@ def search_product(name):
       # Search product by name.
     return f"Searching for {name}"
 
+def get_customer():
+    return {
+        "id": 1,
+        "name": "Vijay"
+    }
+
 if __name__ == "__main__":
     print(hello())
     print(get_product())
