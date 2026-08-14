@@ -25,6 +25,9 @@ def get_customer():
         "name": "Vijay"
     }
 
+def process_payment(amount):
+    return f"Payment of {amount} processed"
+
 if __name__ == "__main__":
     print(hello())
     print(get_product())
