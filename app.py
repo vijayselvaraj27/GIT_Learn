@@ -19,6 +19,15 @@ def search_product(name):
       # Search product by name.
     return f"Searching for {name}"
 
+def get_customer():
+    return {
+        "id": 1,
+        "name": "Vijay"
+    }
+
+def process_payment(amount):
+    return f"Payment of {amount} processed"
+
 if __name__ == "__main__":
     print(hello())
     print(get_product())
