@@ -11,3 +11,7 @@ Git remote workflow practice.
 ## Team Update
 
 Remote change for fetch practice.
+
+## Shipping Update
+
+Shipping feature documentation.
